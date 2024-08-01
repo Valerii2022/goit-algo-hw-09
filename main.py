@@ -1,3 +1,5 @@
+import time
+
 def find_coins_greedy(amount):
     coins = [50, 25, 10, 5, 2, 1]  
     result = {}
@@ -30,8 +32,6 @@ def find_min_coins(amount):
         amount -= coin
 
     return result
-
-import time
 
 def compare_algorithms():
     amount = 4999 
